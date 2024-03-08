@@ -57,6 +57,9 @@ body {
     margin-bottom: 20px;
 }
 /*NOSOTROS*/
+.logo{
+    width: 800px;
+}
 .nosotros{
     font-family: "Noto Serif", serif;
     color: rgb(240, 248, 255);
