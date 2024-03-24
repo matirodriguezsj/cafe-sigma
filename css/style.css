@@ -1,16 +1,16 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-body {
+/* body {
     background-image: url('../images/cafe-bg.jpg');
     background-size:cover;
     background-repeat:no-repeat;
-}
+} */
 
-.navbar-brand {
+/* .navbar-brand {
     margin-right: 20px; 
 }
 
@@ -24,7 +24,7 @@ body {
 
 .menu ul li a{
     color: aliceblue;
-    font-size: 45px;
+    font-size: 40px;
     text-decoration: none;
 }
 .navbar-toggler img {
@@ -35,9 +35,9 @@ body {
 .menu ul li a:hover{
     color: rgba(218, 132, 61, 0.573);
     text-decoration: underline;
-}
+} */
 /*INDEX*/
-.inicio h1 {
+/* .inicio h1 {
     font-family: "Noto Serif", serif;
     font-size: 180px;
     color: rgb(240, 248, 255); 
@@ -55,8 +55,8 @@ body {
     color: rgb(240, 248, 255);
     margin-top: 20px;
     margin-bottom: 20px;
-}
-/*NOSOTROS*/
+} */
+/* NOSOTROS
 .logo{
     width: 800px;
 }
@@ -68,10 +68,10 @@ body {
     font-family: "Noto Serif", serif;
     color: rgb(240, 248, 255);
     font-size: 30px;
-}
+} */
 
 /*MENÚ*/
-.menu-carta h1{
+/* .menu-carta h1{
     font-family: "Noto Serif", serif;
     color: rgb(240, 248, 255);
 }
@@ -102,10 +102,10 @@ body {
 
 .right-column {
     grid-column: 2; 
-}
+} */
 
 /*CONTACTO*/
-.contacto h1{
+/* .contacto h1{
     font-family: "Noto Serif", serif;
     color: rgb(240, 248, 255);
     
@@ -120,11 +120,17 @@ form{
     color: rgb(240, 248, 255);
     font-size: 20px;
     padding: 20px;
-}
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+} */
 /*UBICACION*/
-.ubi-1{
+/* .ubi-1{
     font-family: "Noto Serif", serif;
     color: rgb(240, 248, 255);
+}
+.img-fluid{
+    width: 1000px;
 }
 .ubicacion{
     font-family: "Noto Serif", serif;
@@ -137,8 +143,11 @@ form{
     font-family: "Noto Serif", serif;
     color: rgb(240, 248, 255);
     font-size: 30px;
-}
-footer {
+    padding-right: 50%;
+} */
+
+
+/* footer {
     background-color: rgba(109, 108, 108, 0.5); 
     color: rgb(240, 248, 255);
     text-align: center;
@@ -146,4 +155,4 @@ footer {
 }
 footer img {
     width: 50px;
-}
+} */
