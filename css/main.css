@@ -4,13 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*Globals*/
 body {
   background-image: url("../images/cafe-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+/*Footer*/
 footer {
   background-color: rgba(109, 108, 108, 0.5);
   color: rgb(240, 248, 255);
@@ -20,7 +20,7 @@ footer {
 footer img {
   width: 50px;
 }
-
+/*Header*/
 .navbar-brand {
   margin-right: 20px;
 }
@@ -48,6 +48,7 @@ footer img {
   height: auto;
 }
 
+/*Main Index*/
 .inicio h1 {
   font-family: "Noto Serif", serif;
   font-size: 180px;
@@ -66,7 +67,7 @@ footer img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+/* Nosotros*/
 .logo {
   width: 800px;
 }
@@ -81,7 +82,7 @@ footer img {
   color: rgb(240, 248, 255);
   font-size: 30px;
 }
-
+/* Menu */
 .menu-carta h1 {
   font-family: "Noto Serif", serif;
   color: rgb(240, 248, 255);
@@ -116,7 +117,7 @@ footer img {
 .right-column {
   grid-column: 2;
 }
-
+/* Ubicacion */
 .ubi-1 {
   font-family: "Noto Serif", serif;
   color: rgb(240, 248, 255);
@@ -139,7 +140,7 @@ footer img {
   font-size: 30px;
   padding-right: 50%;
 }
-
+/* Contacto */
 .contacto h1 {
   font-family: "Noto Serif", serif;
   color: rgb(240, 248, 255);

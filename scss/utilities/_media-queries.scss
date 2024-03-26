@@ -1,0 +1,20 @@
+/* Estilos para tablet */
+@media only screen and (min-width: 768px) {
+    .col-md-6 {
+        display: flex;
+        align-items: center; 
+    }
+    .ubi-text {
+        margin-left: 20px; 
+    }
+}
+/* Estilo para celular*/
+@media only screen and (max-width: 767px) {
+    .col-md-6 {
+        flex-direction: column; 
+    }
+    .ubi-text {
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+}
