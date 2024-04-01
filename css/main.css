@@ -4,13 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*Globals*/
+
 body {
   background-image: url("../images/cafe-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-/*Footer*/
+
 footer {
   background-color: rgba(109, 108, 108, 0.5);
   color: rgb(240, 248, 255);
@@ -20,7 +20,7 @@ footer {
 footer img {
   width: 50px;
 }
-/*Header*/
+
 .navbar-brand {
   margin-right: 20px;
 }
@@ -34,7 +34,7 @@ footer img {
   align-items: center;
 }
 .menu ul li a {
-  color: aliceblue;
+  color: rgb(240, 248, 255);
   font-size: 40px;
   text-decoration: none;
 }
@@ -48,7 +48,6 @@ footer img {
   height: auto;
 }
 
-/*Main Index*/
 .inicio h1 {
   font-family: "Noto Serif", serif;
   font-size: 180px;
@@ -67,7 +66,7 @@ footer img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* Nosotros*/
+
 .logo {
   width: 800px;
 }
@@ -82,7 +81,7 @@ footer img {
   color: rgb(240, 248, 255);
   font-size: 30px;
 }
-/* Menu */
+
 .menu-carta h1 {
   font-family: "Noto Serif", serif;
   color: rgb(240, 248, 255);
@@ -117,7 +116,7 @@ footer img {
 .right-column {
   grid-column: 2;
 }
-/* Ubicacion */
+
 .ubi-1 {
   font-family: "Noto Serif", serif;
   color: rgb(240, 248, 255);
@@ -140,7 +139,7 @@ footer img {
   font-size: 30px;
   padding-right: 50%;
 }
-/* Contacto */
+
 .contacto h1 {
   font-family: "Noto Serif", serif;
   color: rgb(240, 248, 255);
@@ -159,6 +158,27 @@ form {
   display: flex;
   flex-direction: column;
   width: 30%;
+}
+
+/* Estilos para tablet */
+@media only screen and (min-width: 768px) {
+  .col-md-6 {
+    display: flex;
+    align-items: center;
+  }
+  .ubi-text {
+    margin-left: 20px;
+  }
+}
+/* Estilo para celular*/
+@media only screen and (max-width: 767px) {
+  .col-md-6 {
+    flex-direction: column;
+  }
+  .ubi-text {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,17 +1,17 @@
 .contacto {
 	h1 {
 		font-family: "Noto Serif", serif;
-		color: rgb(240, 248, 255);
+		color: $color-fuente;
 	}
 	h2 {
 		font-family: "Noto Serif", serif;
-		color: rgb(240, 248, 255);
+		color: $color-fuente;
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
 }
 form {
-	color: rgb(240, 248, 255);
+	color: $color-fuente;
 	font-size: 20px;
 	padding: 20px;
 	display: flex;

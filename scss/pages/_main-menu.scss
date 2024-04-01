@@ -1,11 +1,11 @@
 .menu-carta {
 	h1 {
 		font-family: "Noto Serif", serif;
-		color: rgb(240, 248, 255);
+		color: $color-fuente;
 	}
 	h2 {
 		font-family: "Noto Serif", serif;
-		color: rgb(240, 248, 255);
+		color: $color-fuente;
 	}
 }
 .item {
@@ -20,7 +20,7 @@
 	margin-bottom: 20px;
 }
 .description {
-	color: rgb(240, 248, 255);
+	color: $color-fuente;
 }
 .menu {
 	display: grid;
