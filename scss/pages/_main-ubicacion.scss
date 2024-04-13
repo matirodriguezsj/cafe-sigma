@@ -6,14 +6,16 @@
 	width: 1000px;
 }
 .ubicacion {
-	font-family: "Noto Serif", serif;
+	// font-family: "Noto Serif", serif;
 	display: flex;
 	color: $color-fuente;
-	font-size: 30px;
+	// font-size: 30px;
+	@extend %estilos
 }
 .ubi-text {
-	font-family: "Noto Serif", serif;
+	// font-family: "Noto Serif", serif;
 	color: $color-fuente;
-	font-size: 30px;
+	// font-size: 30px;
 	padding-right: 50%;
+	@extend %estilos
 }

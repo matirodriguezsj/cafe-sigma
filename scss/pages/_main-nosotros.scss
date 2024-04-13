@@ -6,7 +6,8 @@
 	color: $color-fuente;
 }
 .texto-nosotros {
-	font-family: "Noto Serif", serif;
+	// font-family: "Noto Serif", serif;
 	color: $color-fuente;
-	font-size: 30px;
+	// font-size: 30px;
+	@extend %estilos
 }
