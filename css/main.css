@@ -62,14 +62,14 @@ footer img {
   font-family: "Noto Serif", serif;
   font-size: 80px;
   color: rgb(240, 248, 255);
-  margin-top: 20px;
+  margin-top: 150px;
 }
 .inicio p {
   font-family: "Noto Serif", serif;
   font-size: 40px;
   color: rgb(240, 248, 255);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 120px;
+  margin-bottom: 60px;
 }
 
 .logo {
@@ -170,14 +170,40 @@ form {
   }
 }
 /* Estilo para celular*/
-@media only screen and (max-width: 767px) {
-  .col-md-6 {
-    flex-direction: column;
+@media only screen and (max-width: 768px) {
+  .sigma-img{
+    width: 150px;
+  }
+  .inicio h1{
+    font-size: 80px;
+  }
+  .inicio h2{
+    font-size: 50px;
+  }
+  .texto-nosotros {
+    font-size: 20px;
+    margin-top: 20px;
   }
   .ubi-text {
     margin-left: 0;
     margin-top: 20px;
   }
+  body {
+    display: flex;
+    flex-direction: column;
 }
+
+.menu-carta, .menu {
+    width: 100%;
+display: inline;
+}
+form{
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
 
 /*# sourceMappingURL=main.css.map */
